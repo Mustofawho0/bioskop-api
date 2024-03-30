@@ -1,0 +1,96 @@
+{
+  "users": [
+    {
+      "uid": 1711514739808,
+      "username": "mustofa",
+      "password": "123456",
+      "email": "mustofa@gmail.com",
+      "role": "users"
+    },
+    {
+      "uid": 1711516054291,
+      "username": "bahaha",
+      "password": "123456",
+      "email": "bahaha@gmail.com",
+      "role": "users"
+    },
+    {
+      "uid": 1711525489434,
+      "username": "parapap",
+      "password": "123456",
+      "email": "parapap@gmail.com",
+      "role": "admin"
+    }
+  ],
+  "movies": [
+    {
+      "id": 1,
+      "name": "KKN di Desa Penari",
+      "release_date": "2022-04-30",
+      "genre": "Horor",
+      "status": "On Show",
+      "total_seat": 60,
+      "price": [{ "weekdays": 45000, "weekend": 60000 }],
+      "show_times": ["09:00", "11:00", "13:00"]
+    },
+    {
+      "id": 2,
+      "name": "Fast X",
+      "release_date": "2023-05-10",
+      "genre": "Action",
+      "status": "Upcoming",
+      "total_seat": 60,
+      "price": [{ "weekdays": 45000, "weekend": 60000 }],
+      "show_times": ["09:00", "11:00", "13:00", "15:00", "17:00"]
+    },
+    {
+      "id": 3,
+      "name": "Spiderman 4",
+      "release_date": "2023-04-10",
+      "genre": "Action",
+      "status": "Upcoming",
+      "total_seat": 60,
+      "price": [{ "weekdays": 45000, "weekend": 60000 }],
+      "show_times": ["09:00", "11:00", "13:00"]
+    },
+    {
+      "id": 4,
+      "name": "Spiderman 5",
+      "release_date": "2023-04-10",
+      "genre": "Action",
+      "status": "Upcoming",
+      "total_seat": 60,
+      "price": [{ "weekdays": 50000, "weekend": 70000 }],
+      "show_times": ["09:00", "11:00", "13:00"]
+    }
+  ],
+  "transactions": [
+    {
+      "uid": "1711516054291",
+      "moviesId": 2,
+      "time": "09:00",
+      "total_seat": 4,
+      "date": "2023-05-20",
+      "price": 240000
+    },
+    {
+      "uid": "1711516054291",
+      "name": "KKN di Desa Penari",
+      "moviesId": 1,
+      "time": "09:00",
+      "total_seat": 5,
+      "date": "2023-05-20",
+      "price": 300000
+    },
+    {
+      "uid": "1711516054291",
+      "name": "Fast X",
+      "genre": "Action",
+      "moviesId": 2,
+      "time": "09:00",
+      "total_seat": 2,
+      "date": "2023-05-20",
+      "price": 120000
+    }
+  ]
+}
